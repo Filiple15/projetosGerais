@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>João Filipe | Portfólio</title>
+
+    <!-- ✅ CSS principal (mantendo nome original do arquivo) -->
+    <link rel="stylesheet" href="stayle.css">
+
+    <!-- ✅ Performance e SEO -->
+    <meta name="description" content="Portfólio de João Filipe — Desenvolvedor Fullstack formado na ETEC e SENAC. Experiência com React, Node.js e interfaces modernas.">
+    <meta name="author" content="João Filipe Leandro">
+
+    <!-- ✅ Google Fonts (mantendo suas fontes originais) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&
+      family=Open+Sans:wght@300..800&
+      family=Playfair+Display:wght@400..900&
+      family=Unbounded:wght@200..900&display=swap" 
+      rel="stylesheet">
+
+    <!-- ⚙️ Font Awesome (versão estável e compatível) -->
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+          integrity="sha512-pVn3pK7ujIFlXwFfOkz4pA4QwMkgdHhAW3i2B1Y4P38iE/zL1hLKb3YX7PQZwULC/m8D0k8qmwfYuqNfT1L+1w==" 
+          crossorigin="anonymous" 
+          referrerpolicy="no-referrer" />
+
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- 🔰 Favicon (opcional, se quiser adicionar mais tarde) -->
+    <!-- <link rel="icon" type="image/png" href="assets/favicon.png"> -->
+</head>
+
+<body>
+    <!-- Tela de carregamento -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <!-- Ícone principal -->
+            <i class="fa-solid fa-laptop-code fa-5x main-icon hidden"></i><br><br>
+
+            <h1 id="loading-text" class="hidden">João Filipe Leandro</h1><br>
+
+            <div class="sub-icons">
+                <i class="fa-brands fa-github fa-2x hidden"></i>
+                <i class="fa-brands fa-react fa-2x hidden"></i>
+                <i class="fa-brands fa-node-js fa-2x hidden"></i>
+            </div><br>
+
+            <h3 id="designer-text" class="hidden">Desenvolvidor Full Stack</h3>
+        </div>
+    </div>
+
+    <!-- Cabeçalho / Menu de navegação -->
+    <header class="header-list">
+        <div class="div-list">
+            <ul class="ul-list">
+                <li class="active">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#home">Início</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-user"></i>
+                    <a href="#about">Sobre</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <a href="#project">Projetos</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-code"></i>
+                    <a href="#services">Serviços</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="#contact">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+<!-- Home da Pagina -->
+<section class="home" id="home">
+
+    <div class="home-container">
+        <div class="home-section">
+            <div class="info-home">
+                <h1>João Filipe</h1>
+                <h3>Desenvolvedor Frontend Júnior</h3>
+
+                <div class="info-p">
+                    <p>Estudante de <strong> Desenvolvimento de Sistemas na Etec</strong> e apaixonado por tecnologia desde os 13 anos.</p>
+                    <p>Atualmente focado em <strong>Front-end</strong>, criando interfaces <strong><i>modernas, responsivas e funcionais.</i></strong></p>
+                    <p>Com mais de <strong>20 projetos</strong> publicados no GitHub, experiência em <strong><i>HTML, CSS, JavaScript, React, C# e Python</i></strong> sempre evoluindo e buscando novos desafios.</p>
+                </div>
+
+                <div class="info-p2">
+                    <p><i class="fa-solid fa-location-dot"></i>Presidente Prudente - SP</p>
+                    <p><i class="fa-solid fa-circle-check"></i> Disponível para oportunidades</p>
+                </div>
+
+                <div class="btnn">
+
+                    <!-- Botão Contrate-me -->
+                    <a href="https://www.linkedin.com/in/joaofilipeleandrodossantos/" 
+                    target="_blank" 
+                    class="btn-home1">
+                        <i class="fa-solid fa-handshake"></i> Contrate-me
+                    </a>
+
+                    <!-- Botão Baixar CV -->
+                    <a href="/portofolio3/files/Curriculo-Joao-Filipe.pdf.pdf" 
+                    download="Joao-Filipe-CV.pdf" 
+                    class="btn-home2">
+                        <i class="fa-solid fa-file-arrow-down"></i> Baixar CV
+                    </a>
+
+                </div>
+
+
+                <div class="hhr">
+                    <hr>
+                </div>
+
+                <div class="follow">
+                    <p class="followw">Me siga:</p>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/Filiple15" target="_blank" aria-label="GitHub">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" aria-label="Discord">
+                                <i class="fa-brands fa-discord"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/joaofilipeleandrodossantos/" target="_blank" aria-label="LinkedIn">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" aria-label="Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <img src="images/img2.jpg" alt="Foto de perfil de João Filipe">
+    </div>
+</section>
+
+<!-- Final da Home -->
+
+<!-- Inicio do Sobre -->
+<section class="about" id="about">
+    <p id="about">SOBRE MIM</p>
+
+    <div class="title">
+        <h1>Construindo Experiências</h1>
+        <h1>Digitais Relevantes</h1>
+    </div>
+
+    <div class="hrrr">
+        <hr>
+    </div>
+
+    <div class="about-container">
+        <div class="info-about">
+            <div class="about-info">
+                <p>
+                    Sou um desenvolvedor Full Stack com foco em criar experiências digitais modernas, funcionais e responsivas. 
+                    Minha paixão por tecnologia começou aos 8 anos e, desde os 12, estudo programação e diversas linguagens, 
+                    incluindo Python, JavaScript e C#.
+                </p>
+                <p>
+                    Ao longo do tempo, atuei como freelancer, desenvolvendo layouts e projetos web. 
+                    Tenho experiência prática com React, Node.js, HTML, CSS, JavaScript, TypeScript, Python, Git/GitHub e noções básicas de MySQL e Linux. 
+                    Meu conhecimento em back-end é básico, mas sou intermediário em Front-end, sempre buscando aprimorar minhas habilidades.
+                </p>
+                <p>
+                    Atualmente sou aluno da ETEC, no curso de Desenvolvimento de Sistemas (1º ano do ensino médio). 
+                    Já concluí um curso de Fullstack com certificado e sou formado em espanhol pelo CEL, através da escola Sarrion, em Presidente Prudente. 
+                    Falo inglês em nível básico.
+                </p>
+            </div>
+
+            <h2>O que me motiva</h2>
+
+            <div class="card">
+                <div class="c1">
+                    <h3><i class="fa-solid fa-code"></i> Tecnologias</h3>
+                    <p>HTML, CSS, JavaScript, TypeScript, React, Node.js, Python, C#, Git, GitHub, MySQL básico</p>
+                </div>
+                <div class="c1">
+                    <h3><i class="fa-solid fa-graduation-cap"></i> Formação</h3>
+                    <p><strong>ETEC</strong> – Desenvolvimento de Sistemas (1º ano do Ensino Médio)<br>Curso <strong>Fullstack</strong> certificado<br><strong>CEL</strong> – Espanhol (formação completa)</p>
+                </div>
+                <div class="c1">
+                    <h3><i class="fa-solid fa-folder-open"></i> Projetos</h3>
+                    <p>Criação de layouts, sites web e projetos de desenvolvimento front-end como freelancer</p>
+                </div>
+                
+            </div>
+        </div>
+
+        <img src="images/img.jpg" alt="Foto de João, desenvolvedor frontend">
+    </div>
+</section>
+<!-- Final do Sobre -->
+
+<!-- Inicio de Projetos -->
+<section class="project" id="project">
+    <p>PROJETOS</p>
+    <h1>Trabalhos em Destaque</h1>
+    <hr>
+    <div class="info-pro">
+        <p>Uma seleção dos projetos que desenvolvi, explorando habilidades em front-end e full-stack,</p>
+        <p>criando interfaces modernas, responsivas e focadas em usabilidade e boas práticas.</p>
+    </div>
+
+    <div class="projects-container">
+
+        <!-- Projeto 1: FlipeCode -->
+        <div class="project-card">
+            <img src="images/Projetos/Site-FlipeCode.JPG" alt="">
+            <h3>Site FlipeCode</h3>
+            <p>Plataforma criada para facilitar a construção de sites para pequenas lojas, oferecendo uma presença digital simples, rápida e acessível.</p>
+            
+            <div class="skills">
+                <a href="#">HTML</a>
+                <a href="#">CSS</a>
+                <a href="#">JavaScript</a>
+            </div>
+
+            <div class="btns">
+                <a href="https://github.com/Filiple15/FLipeCode" target="_blank" class="btn"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://flipecode.netlify.app/" class="btn"><i class="fas fa-external-link-alt"></i>Abrir</a>
+            </div>
+        </div>
+
+        <!-- Projeto 2: Layout Homem-Aranha -->
+        <div class="project-card">
+            <img src="images/Projetos/Aranha.JPG" alt="">
+            <h3>Layout Homem-Aranha</h3>
+            <p>Projeto desenvolvido durante o curso de Desenvolvimento de Sistemas da ETEC, trabalhando layout, organização visual, ícones e adaptação de conteúdo inspirado nos filmes do Homem-Aranha.</p>
+            
+            <div class="skills">
+                <a href="#">HTML</a>
+                <a href="#">CSS</a>
+                <a href="#">JavaScript</a>
+            </div>
+
+            <div class="btns">
+                <a href="https://github.com/Filiple15/Site-HomemAranha" class="btn"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://filiple15.github.io/Site-HomemAranha/" class="btn"><i class="fas fa-external-link-alt"></i>Abrir</a>
+            </div>
+        </div>
+
+        <!-- Projeto 3: Real Madrid -->
+        <div class="project-card">
+            <img src="images/Projetos/Site-RealMadrid.JPG" alt="">
+            <h3>Site Real Madrid</h3>
+            <p>Projeto criado para a matéria de PW1 na ETEC, com o tema “meu time favorito”. O site apresenta informações reais sobre o Real Madrid, com layout personalizado, uso de ícones e adaptação completa do conteúdo.</p>
+            
+            <div class="skills">
+                <a href="#">HTML</a>
+                <a href="#">CSS</a>
+                <a href="#">JavaScript</a>
+            </div>
+
+            <div class="btns">
+                <a href="https://github.com/Filiple15/Site-RealMadrid" class="btn"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://filiple15.github.io/Site-RealMadrid/" class="btn"><i class="fas fa-external-link-alt"></i>Abrir</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Final de Projetos -->
+
+<!-- Inicio de Serviços -->
+</section>
+<section class="services" id="services">
+    <p>SERVIÇOS</p>
+    <h1>Meus Serviços</h1>
+    <hr>
+    <div class="services-container">
+
+        <div class="service-card">
+            <img src="images/web.svg" alt="Desenvolvimento Web">
+            <h3>Desenvolvimento Front-end</h3>
+            <p>Criação e personalização de páginas web modernas e responsivas, utilizando HTML, CSS, JavaScript e frameworks como React.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/app.svg" alt="Desenvolvimento Fullstack">
+            <h3>Desenvolvimento Fullstack</h3>
+            <p>Implementação de aplicações completas, integrando front-end e back-end, APIs e banco de dados, garantindo funcionamento eficiente e interativo.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/dm.svg" alt="Design e Layout">
+            <h3>Design e Layout de Sites</h3>
+            <p>Criação de layouts atraentes e funcionais, adaptando temas e conteúdos para oferecer experiências visuais modernas e centradas no usuário.</p>
+        </div>
+
+    </div>
+</section>
+<!-- Final de Serviços -->
+
+<!-- Inicio de Contato -->
+<section class="contact" id="contact">
+    <p>CONTATO</p>
+    <h1>Fale Comigo</h1>
+    <div class="contact-content">
+
+        <div class="contact-info slide-in-left">
+            <p>Estou sempre aberto a discutir projetos, parcerias e novas oportunidades.  
+            Me envie uma mensagem e retornarei o mais rápido possível!</p>
+
+            <div class="social-links">
+                <a href="https://github.com/Filiple15" class="social-link" target="_blank" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/joaofilipeleandrodossantos/" class="social-link" target="_blank" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://wa.me/5518998191011" class="social-link" target="_blank" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="contact-form slide-in-right">
+
+            <!-- Formulário com GetForms -->
+            <form 
+                action="https://getform.io/f/ajjdjepa"
+                method="POST"
+                id="contact-form"
+            >
+                <div class="form-group">
+                    <input 
+                        type="text" 
+                        placeholder="Seu Nome" 
+                        required 
+                        name="name"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <input 
+                        type="email" 
+                        placeholder="Seu Email" 
+                        required 
+                        name="email"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <textarea 
+                        name="message" 
+                        placeholder="Sua Mensagem" 
+                        rows="5" 
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="btn-send">Enviar Mensagem</button>
+            </form>
+
+        </div>
+
+    </div>
+</section>
+<!-- Final de Contato -->
+
+
+<footer class="footer">
+  <div class="footer-container">
+    <h2 class="footer-logo">João Filipe</h2>
+    <ul class="footer-links">
+      <li><a href="#home">Início</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#project">Projetos</a></li>
+      <li><a href="#services">Serviços</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+    <div class="footer-social">
+      <a href="https://github.com/Filiple15" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/joaofilipeleandrodossantos/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://wa.me/5518998191011" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    <p class="footer-copy">&copy; 2025 João Filipe. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+
+     <script src="main.js"></script>
+</body>
+</html>

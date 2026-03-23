@@ -1,0 +1,11 @@
+<!-- 
+    Estrutura de pastas sugerida:
+    /img
+      /projetos   → imagens de projetos
+      /logos      → marcas e variações (inclui a logo abaixo exportada em SVG)
+      /equipe     → fotos/avatares da equipe
+    /css/style.css (opcional)
+    /js/script.js (opcional)
+    
+    Observação: Todo CSS/JS está embutido para facilitar o teste inicial.
+  -->
