@@ -63,7 +63,7 @@ Interface de autenticação com foco em design limpo, organização visual e exp
 Projeto central que reúne acessos rápidos para outros projetos e conteúdos, funcionando como um hub pessoal.
 
 <p><strong>Tecnologias:</strong> HTML5, CSS3</p>
-<img src=""></img>
+<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/SiteAcessos/SiteAcessos.JPG" width="100%"/>
 
   </tr>
 </table>
