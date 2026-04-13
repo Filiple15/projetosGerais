@@ -4,7 +4,7 @@
 <h5>
     Projeto focado na construção de formulários modernos e organizados utilizando HTML e CSS.  
     Acesse a versão online: 
-    <a href="#"><strong>Visualizar Projeto</strong></a>
+    <a href="https://filiple15.github.io/projetosGerais/TelaLogin/frontend/index.html"><strong>Visualizar Projeto</strong></a>
 </h5>
 
 ---
@@ -14,7 +14,7 @@
 <table>
   <tr>
     <td>
-      <img src="./code.png" width="1000"/>
+      <img src="./LoginForm.JPG" width="1200"/>
     </td>
     <td>
 
@@ -26,6 +26,7 @@ Este projeto foi desenvolvido com o objetivo de praticar a criação de formulá
 Durante o desenvolvimento, foi dada atenção especial à clareza dos campos, organização visual e experiência do usuário, garantindo um layout simples, porém funcional e intuitivo.
   </tr>
 </table>
+
 ---
 
 ## 🏹 Objetivos
