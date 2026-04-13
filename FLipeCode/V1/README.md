@@ -9,11 +9,12 @@ Desenvolvemos a versão antiga do site da **FLipeCode**, com **design sofisticad
 ##  🌐 Link para acessar o Site:
 
 ```bash
-
+https://filiple15.github.io/projetosGerais/FLipeCode/V1/frontend/index.html
 ```
 <a href="https://filiple15.github.io/projetosGerais/FLipeCode/V1/frontend/index.html" target="_blank">
   Abrir site
 </a>
+
 ---
 
 ## 🌟 Tecnologias Utilizadas
