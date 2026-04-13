@@ -19,7 +19,7 @@
     <td>
 
 <strong>Data de início:</strong> 01/04/2026  
-<strong>Data de conclusão:</strong> 05/04/2026  
+<strong>Data de conclusão:</strong> 02/04/2026  
 
 Este projeto foi desenvolvido com o objetivo de praticar a criação de formulários bem estruturados e visualmente organizados, aplicando boas práticas de HTML semântico e estilização com CSS.
 
