@@ -17,7 +17,7 @@ Praticar:
 ## 📸 Preview
 
 <!-- Coloque aqui um print do projeto -->
-![Preview do projeto](./preview.png)
+![Preview do projeto](./code.png)
 
 ## ▶️ Como executar
 
