@@ -31,7 +31,7 @@ Projeto focado na prática de estruturação de código frontend, com ênfase em
 Projeto de portfólio pessoal desenvolvido para apresentar minhas habilidades, projetos e evolução como desenvolvedor.
 
 <p><strong>Tecnologias:</strong> HTML5, CSS3</p>
-<img src=""></img>
+<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/Portifolio2025/PortifolioV1.JPG" width="100%"/>
 
   </tr>
 </table>
