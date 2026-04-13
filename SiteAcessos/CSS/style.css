@@ -1,0 +1,274 @@
+/* ================= RESET ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* ================= VARIÁVEIS ================= */
+/* Tema CLARO (mais escuro e confortável) */
+:root {
+  --bg: #cfcfd2;
+  --text: #141414;
+  --muted: #5f6470;
+
+  --card-bg: #e1e1e4;
+  --card-border: #d1d1d6;
+  --card-hover: #d6d6da;
+
+  --accent: #0f0f10;
+}
+
+/* ================= BODY ================= */
+body {
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  transition: background 0.35s ease, color 0.35s ease;
+}
+
+/* ================= TOGGLE ================= */
+.theme-toggle {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  z-index: 1000;
+
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.theme-toggle i {
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.theme-toggle:hover {
+  transform: scale(1.12);
+}
+
+/* ================= CONTAINER ================= */
+.container {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 72px 16px 32px;
+}
+
+/* ================= PERFIL ================= */
+.profile {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.profile img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 14px;
+  border: 2px solid var(--card-border);
+}
+
+.profile h1 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.profile p {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+/* ================= SEÇÕES ================= */
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 14px;
+}
+
+/* ================= CARDS ================= */
+.card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  width: 100%;
+  padding: 14px 16px;
+
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+
+  text-decoration: none;
+  color: var(--text);
+
+  margin-bottom: 12px;
+
+  transition: 
+    background 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+/* IMAGENS DOS CARDS (substituem os ícones) */
+.card img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--bg);
+}
+
+/* Texto do card */
+.card span {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+/* Hover */
+.card:hover {
+  background: var(--card-hover);
+  transform: translateY(-2px) scale(1.02);
+  border-color: var(--accent);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* ================= RODAPÉ ================= */
+.footer {
+  margin-top: 36px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.aviso{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ================= RESPONSIVIDADE ================= */
+
+/* 🖥️ Telas grandes / PC (acima de 1200px) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 460px;
+  }
+
+  .profile img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .card {
+    padding: 16px 18px;
+  }
+
+  .card span {
+    font-size: 1rem;
+  }
+}
+
+/* 💻 Notebook (entre 992px e 1199px) */
+@media (max-width: 1199px) and (min-width: 992px) {
+  .container {
+    max-width: 440px;
+  }
+}
+
+/* 📱 Tablet (entre 768px e 991px) */
+@media (max-width: 991px) {
+  .container {
+    max-width: 480px;
+    padding: 64px 20px 32px;
+  }
+
+  .profile img {
+    width: 92px;
+    height: 92px;
+  }
+
+  .card {
+    padding: 14px 16px;
+  }
+}
+
+/* 📱 Celular grande (entre 480px e 767px) */
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+    padding: 64px 16px 28px;
+  }
+
+  .profile h1 {
+    font-size: 1.1rem;
+  }
+
+  .profile p {
+    font-size: 0.85rem;
+  }
+
+  .card span {
+    font-size: 0.9rem;
+  }
+}
+
+/* 📱 Celular pequeno (até 479px) */
+@media (max-width: 479px) {
+  .theme-toggle {
+    top: 12px;
+    right: 12px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .profile img {
+    width: 84px;
+    height: 84px;
+  }
+
+  .section h2 {
+    font-size: 0.7rem;
+  }
+
+  .card {
+    gap: 12px;
+    padding: 13px 14px;
+  }
+
+  .card img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer p {
+    font-size: 0.7rem;
+  }
+}
