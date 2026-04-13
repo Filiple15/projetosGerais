@@ -15,7 +15,7 @@ Coleção de projetos desenvolvidos para praticar minhas habilidades como progra
 Projeto focado na prática de estruturação de código frontend, com ênfase em organização, clareza e boas práticas utilizando HTML e CSS.
 
 <p><strong>Tecnologias:</strong> HTML5, CSS3</p>
-<img src=""></img>
+<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/FLipeCode/V1/FlipeCode.JPG" width="100%"/>
     
   </tr>
 </table>
