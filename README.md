@@ -26,6 +26,22 @@ Projeto focado na prática de estruturação de código frontend, com ênfase em
   <tr>
     <td width="60%">
 
+### 🔗 [NodeAPI - Cadastro de Usuários](https://github.com/Filiple15/projetosGerais/tree/main/nodeAPI)
+
+API simples para cadastro de usuários utilizando Node.js e Express, com foco na manipulação de requisições HTTP e estruturação de rotas.
+
+<p><strong>Tecnologias:</strong> Node.js, Express</p>
+<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/nodeAPI/img/visual.JPG" width="100%" align="center"/>
+
+  </tr>
+</table>
+
+---
+
+<table>
+  <tr>
+    <td width="60%">
+
 ### 🔗 [Portfólio 2025](https://github.com/Filiple15/projetosGerais/tree/main/Portifolio2025)
 
 Projeto de portfólio pessoal desenvolvido para apresentar minhas habilidades, projetos e evolução como desenvolvedor.
@@ -58,28 +74,12 @@ Interface de autenticação com foco em design limpo, organização visual e exp
   <tr>
     <td width="60%">
 
-### 🔗 [Site de Acessos](https://github.com/Filiple15/projetosGerais/tree/main/SiteAcessos)
+### 🔗 [Site de Acessos](https://filiple15.github.io/projetosGerais/SiteAcessos/index.html)
 
 Projeto central que reúne acessos rápidos para outros projetos e conteúdos, funcionando como um hub pessoal.
 
 <p><strong>Tecnologias:</strong> HTML5, CSS3</p>
 <img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/SiteAcessos/SiteAcessos.JPG" width="100%" align="center"/>
-
-  </tr>
-</table>
-
----
-
-<table>
-  <tr>
-    <td width="60%">
-
-### 🔗 [NodeAPI - Cadastro de Usuários](https://github.com/Filiple15/projetosGerais/tree/main/nodeAPI)
-
-API simples para cadastro de usuários utilizando Node.js e Express, com foco na manipulação de requisições HTTP e estruturação de rotas.
-
-<p><strong>Tecnologias:</strong> Node.js, Express</p>
-<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/nodeAPI/img/visual.JPG" width="100%" align="center"/>
 
   </tr>
 </table>
