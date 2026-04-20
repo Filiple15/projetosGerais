@@ -15,7 +15,7 @@ Coleção de projetos desenvolvidos para praticar minhas habilidades como progra
 Projeto focado na prática de estruturação de código frontend, com ênfase em organização, clareza e boas práticas utilizando HTML e CSS.
 
 <p><strong>Tecnologias:</strong> HTML5, CSS3</p>
-<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/FLipeCode/V1/FlipeCode.JPG" width="100%"/>
+<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/FLipeCode/V1/FlipeCode.JPG" width="100%" align="center"/>
     
   </tr>
 </table>
@@ -31,7 +31,7 @@ Projeto focado na prática de estruturação de código frontend, com ênfase em
 Projeto de portfólio pessoal desenvolvido para apresentar minhas habilidades, projetos e evolução como desenvolvedor.
 
 <p><strong>Tecnologias:</strong> HTML5, CSS3</p>
-<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/Portifolio2025/PortifolioV1.JPG" width="100%"/>
+<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/Portifolio2025/PortifolioV1.JPG" width="100%" align="center"/>
 
   </tr>
 </table>
@@ -47,7 +47,7 @@ Projeto de portfólio pessoal desenvolvido para apresentar minhas habilidades, p
 Interface de autenticação com foco em design limpo, organização visual e experiência do usuário.
 
 <p><strong>Tecnologias:</strong> HTML5, CSS3</p>
-<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/TelaLogin/LoginForm.JPG" width="100%"/>
+<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/TelaLogin/LoginForm.JPG" width="100%" align="center"/>
 
   </tr>
 </table>
@@ -63,7 +63,23 @@ Interface de autenticação com foco em design limpo, organização visual e exp
 Projeto central que reúne acessos rápidos para outros projetos e conteúdos, funcionando como um hub pessoal.
 
 <p><strong>Tecnologias:</strong> HTML5, CSS3</p>
-<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/SiteAcessos/SiteAcessos.JPG" width="100%"/>
+<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/SiteAcessos/SiteAcessos.JPG" width="100%" align="center"/>
+
+  </tr>
+</table>
+
+---
+
+<table>
+  <tr>
+    <td width="60%">
+
+### 🔗 [NodeAPI - Cadastro de Usuários](https://github.com/Filiple15/projetosGerais/tree/main/nodeAPI)
+
+API simples para cadastro de usuários utilizando Node.js e Express, com foco na manipulação de requisições HTTP e estruturação de rotas.
+
+<p><strong>Tecnologias:</strong> Node.js, Express</p>
+<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/nodeAPI/img/code.png" width="80%" align="center"/>
 
   </tr>
 </table>
