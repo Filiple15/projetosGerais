@@ -79,7 +79,7 @@ Projeto central que reúne acessos rápidos para outros projetos e conteúdos, f
 API simples para cadastro de usuários utilizando Node.js e Express, com foco na manipulação de requisições HTTP e estruturação de rotas.
 
 <p><strong>Tecnologias:</strong> Node.js, Express</p>
-<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/nodeAPI/img/code.png" width="80%" align="center"/>
+<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/nodeAPI/img/visual.JPG" width="100%" align="center"/>
 
   </tr>
 </table>
