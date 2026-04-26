@@ -74,6 +74,23 @@ Interface de autenticação com foco em design limpo, organização visual e exp
   <tr>
     <td width="60%">
 
+### 🔗 [Chat IA](https://github.com/Filiple15/projetosGerais/tree/main/chatIA)
+
+Projeto de interface de chat com integração de áudio, permitindo gravação no navegador e transcrição automática da fala para texto em tempo real.
+
+<p><strong>Tecnologias:</strong> HTML5, CSS3, JavaScript</p>
+
+<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/chatIA/image.png" width="100%" align="center"/>
+
+  </tr>
+</table>
+
+---
+
+<table>
+  <tr>
+    <td width="60%">
+
 ### 🔗 [Site de Acessos](https://filiple15.github.io/projetosGerais/SiteAcessos/index.html)
 
 Projeto central que reúne acessos rápidos para outros projetos e conteúdos, funcionando como um hub pessoal.
