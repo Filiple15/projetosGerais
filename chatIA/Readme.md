@@ -1,52 +1,66 @@
-<h1>
-  📃 Formulário de Cadastro
-</h1>
-<h5>
-    Projeto focado na construção de formulários modernos e organizados utilizando HTML e CSS.  
-    Acesse a versão online: 
-    <a href="https://filiple15.github.io/projetosGerais/TelaLogin/frontend/index.html"><strong>Visualizar Projeto</strong></a>
-</h5>
+<div align="center">
+
+# 📃 Formulário de Cadastro
+
+Aplicação focada na construção de formulários modernos e organizados utilizando HTML e CSS.
+
+</div>
 
 ---
 
-<img align="right" alt="Coding" width="30%" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif"> <br>
+<strong>Visão Geral do Projeto</strong>
 
-<strong>Visão Geral do Projeto</strong> <br>
-Este projeto foi desenvolvido com foco na construção de uma aplicação web completa, integrando frontend e backend de forma eficiente.
-A aplicação realiza consumo de APIs externas, processamento de dados e exibição em uma interface moderna e responsiva. <a href="#" target="_blank"><strong>Ver projeto</strong></a> <br><br>
+<table>
+  <tr>
+    <td width="60%">
+
+Este projeto foi desenvolvido com foco na criação de uma interface de formulário moderna, organizada e responsiva.
+
+O objetivo principal é aplicar boas práticas de estruturação HTML e estilização com CSS, priorizando clareza visual e experiência do usuário. 
+<a href="https://filiple15.github.io/projetosGerais/TelaLogin/frontend/index.html" target="_blank"><strong>
+Ver projeto
+</strong></a>
+
+
+<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/FLipeCode/V1/FlipeCode.JPG" width="100%" align="center"/>
+
+  </tr>
+</table>
+
+---
+
+<strong> 🛠️ Tecnologias Utilizadas: </strong><img src="https://skillicons.dev/icons?i=html,css,javascript&theme=light" height="25px" />
+
+##
 
 <details>
-  <summary><strong>⚙️ Tecnologias Utilizadas<strong></summary> <br>
+  <summary><strong>⚙️ Funcionalidades</strong></summary>
 
-  Frontend:
-  <img src="https://skillicons.dev/icons?i=html,css,javascript&theme=light" height="30px" alt="Skills icons" /><br>
-  ##
-  Backend:
-  <img src="https://skillicons.dev/icons?i=python,cs&theme=light" height="30px" alt="Skills icons" /><br>
-  ##
-  Frameworks:
-  <img src="https://skillicons.dev/icons?i=react,express,flask&theme=light" height="30px" alt="Skills icons" /><br>
+<br>
+
+
+* Estrutura de formulário organizada
+* Layout responsivo
+* Estilização moderna com CSS
+* Campos de entrada com validação visual
+
 </details>
 
 ##
 
 <details>
-  <summary><strong>👨‍💻 Mais informações<strong></summary> <br>
-  <table>
-  <tr>
-    <td>
-      <img src="./LoginForm.JPG" width="1200"/>
-    </td>
-    <td>
+  <summary><strong>📊 Detalhes adicionais</strong></summary>
 
-<strong>Data de início:</strong> 01/04/2026  
-<strong>Data de conclusão:</strong> 02/04/2026  
+<br>
 
-Este projeto foi desenvolvido com o objetivo de praticar a criação de formulários bem estruturados e visualmente organizados, aplicando boas práticas de HTML semântico e estilização com CSS.
+* 📅 Data de conclusão: 2026
+* 📦 Status: Concluído
+* 🎯 Objetivo: Prática de frontend
 
-Durante o desenvolvimento, foi dada atenção especial à clareza dos campos, organização visual e experiência do usuário, garantindo um layout simples, porém funcional e intuitivo.
-  </tr>
-</table>
+<br>
+
+<a href="#">📃 Documentação</a>
+
 </details>
 
 ---
