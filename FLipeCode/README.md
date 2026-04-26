@@ -1,55 +1,76 @@
-# 💻 FLipeCode (Versões antigas)
+<div align="center">
 
-Desenvolvemos a versão antiga do site da **FLipeCode**, com **design sofisticado em preto e dourado**, degradês elegantes e **layout responsivo** que se adapta a todos os dispositivos. O site, construído em **HTML, CSS e JavaScript**, aplica estratégias de **funil de vendas e UX** para destacar serviços, gerar confiança e aumentar conversão.
+# 💻 FLipeCode (Versões Antigas)
 
- > O site mostra a versão antiga da FLipeCode, refletindo um design premium, moderno e responsivo, aumentando engajamento e destaque da marca. 
+Versão anterior do site institucional da FLipeCode, com foco em design premium, experiência do usuário e estratégias de conversão.
 
----
-
-##  🌐 Link para acessar o Site Atual:
-
-```bash
- https://flipecode.netlify.app/
-```
-<a href="https://flipecode.netlify.app/" target="_blank">
-  Abrir site
-</a>
+</div>
 
 ---
 
-## 🌟 Tecnologias Utilizadas
+<strong>Visão Geral do Projeto</strong>
 
-- **HTML** – Estrutura semântica do site.  
-- **CSS** – Estilização, responsividade e design moderno.  
-- **JavaScript** – Interatividade e funcionalidades dinâmicas.  
+<table>
+  <tr>
+    <td width="60%">
 
----
+Este projeto representa a versão antiga do site da <strong>FLipeCode</strong>, desenvolvido com foco em identidade visual forte, utilizando uma paleta sofisticada em preto e dourado.
 
-## 🛠 Recursos e Funcionalidades
+O layout foi construído visando uma experiência fluida e responsiva, aliado a estratégias de funil de vendas e UX para aumentar o engajamento e conversão de usuários. <a href="https://flipecode.netlify.app/" target="_blank"><strong>
+Ver projeto </strong></a>
 
-- **Design elegante em preto e dourado**, com degradês sutis  
-- **Layout responsivo**, funcionando em desktops, tablets e mobile  
-- **Cards de projetos interativos**, com hover e animações suaves  
-- **Estratégias de usabilidade e funil de vendas** integradas, aplicando o método **SCALE**.  
+<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/FLipeCode/V1/FlipeCode.JPG" width="100%" align="center"/>
 
----
-
-## 🎯 Objetivos e Resultados
-
-- Destacar a identidade da marca FLipeCode  
-- Valorizar serviços e projetos de forma elegante  
-- Criar experiência de navegação intuitiva e fluida  
-- Gerar credibilidade e profissionalismo  
+  </td>
+  </tr>
+</table>
 
 ---
 
-## 📌 Como Usar
+<strong> 🛠️ Tecnologias Utilizadas: </strong> <img src="https://skillicons.dev/icons?i=html,css,javascript&theme=light" height="25px" />
 
-1. Clone este repositório:  
-```bash
-https://github.com/Filiple15/FLipeCode.git
-```
+##
 
+<details>
+  <summary><strong>⚙️ Funcionalidades</strong></summary>
 
+<br>
 
+* Design premium em preto e dourado com degradês elegantes
+* Layout totalmente responsivo (desktop, tablet e mobile)
+* Cards interativos com efeitos de hover e animações suaves
+* Estrutura pensada para funil de vendas e conversão
+* Aplicação de conceitos de UX para melhorar navegação
 
+</details>
+
+##
+
+<details>
+  <summary><strong>📊 Detalhes adicionais</strong></summary>
+
+<br>
+
+* 📅 Data de conclusão: 2026
+* 📦 Status: Concluído
+* 🎯 Objetivo: Construção de site institucional com foco em conversão
+* 🌐 Versão online: <a href="https://flipecode.netlify.app/" target="_blank">Acessar site</a>
+
+<br>
+
+<a href="https://github.com/Filiple15/FLipeCode.git">📃 Repositório</a>
+
+</details>
+
+---
+
+<details>
+  <summary><strong>👨‍💼 Sobre o criador</strong></summary> 
+  <br>
+
+<strong>Dev. Junior</strong>
+Cada projeto representa evolução real — mais do que código, disciplina, consistência e construção de identidade como desenvolvedor.
+
+🔗 <a href="https://github.com/Filiple15">GitHub</a>
+
+</details>
