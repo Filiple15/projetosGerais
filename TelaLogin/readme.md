@@ -1,60 +1,77 @@
-<h1>
-  📃 Formulário de Cadastro
-</h1>
-<h5>
-    Projeto focado na construção de formulários modernos e organizados utilizando HTML e CSS.  
-    Acesse a versão online: 
-    <a href="https://filiple15.github.io/projetosGerais/TelaLogin/frontend/index.html"><strong>Visualizar Projeto</strong></a>
-</h5>
+<div align="center">
+
+# 📃 Formulário de Cadastro
+
+Aplicação focada na construção de formulários modernos, organizados e com boa experiência do usuário, utilizando HTML e CSS.
+
+</div>
 
 ---
 
-## ✉️ Sobre o projeto
+<strong>Visão Geral do Projeto</strong>
 
 <table>
   <tr>
-    <td>
-      <img src="./LoginForm.JPG" width="1200"/>
-    </td>
-    <td>
+    <td width="60%">
 
-<strong>Data de início:</strong> 01/04/2026  
-<strong>Data de conclusão:</strong> 02/04/2026  
+Este projeto foi desenvolvido com o objetivo de praticar a criação de formulários bem estruturados, aplicando boas práticas de HTML semântico e estilização com CSS.
 
-Este projeto foi desenvolvido com o objetivo de praticar a criação de formulários bem estruturados e visualmente organizados, aplicando boas práticas de HTML semântico e estilização com CSS.
+Durante o desenvolvimento, o foco principal foi a organização visual, clareza dos campos e experiência do usuário, garantindo um layout simples, funcional e intuitivo.<a href="https://filiple15.github.io/projetosGerais/TelaLogin/frontend/index.html" target="_blank"><strong>
+Ver projeto </strong></a>
 
-Durante o desenvolvimento, foi dada atenção especial à clareza dos campos, organização visual e experiência do usuário, garantindo um layout simples, porém funcional e intuitivo.
+<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/TelaLogin/LoginForm.JPG" width="100%" align="center"/>
+
+  </td>
   </tr>
 </table>
 
 ---
 
-## 🏹 Objetivos
+<strong> 🛠️ Tecnologias Utilizadas: </strong> <img src="https://skillicons.dev/icons?i=html,css&theme=light" height="25px" />
 
-- Melhorar a estruturação de formulários HTML  
-- Praticar estilização com CSS  
-- Criar interfaces limpas e organizadas  
-- Desenvolver consistência visual  
+##
+
+<details>
+  <summary><strong>⚙️ Funcionalidades</strong></summary>
+
+<br>
+
+* Estrutura de formulário organizada e semântica
+* Layout limpo e visualmente equilibrado
+* Campos de entrada com foco em usabilidade
+* Interface simples, intuitiva e funcional
+* Aplicação de boas práticas de HTML e CSS
+
+</details>
+
+##
+
+<details>
+  <summary><strong>📊 Detalhes adicionais</strong></summary>
+
+<br>
+
+* 📅 Data de início: 01/04/2026
+* 📅 Data de conclusão: 02/04/2026
+* 📦 Status: Concluído
+* 🎯 Objetivo: Prática de criação de formulários e organização visual
+* 🌐 Versão online: <a href="https://filiple15.github.io/projetosGerais/TelaLogin/frontend/index.html" target="_blank">Acessar projeto</a>
+
+<br>
+
+<a href="#">📃 Documentação</a>
+
+</details>
 
 ---
 
-## 💻 Tecnologias utilizadas
+<details>
+  <summary><strong>👨‍💼 Sobre o criador</strong></summary> 
+  <br>
 
-<table>
-  <tr>
-    <td>
+<strong>Dev. Junior</strong>
+Cada projeto representa evolução contínua — foco em consistência, clareza e construção de interfaces cada vez mais profissionais.
 
-### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="15" height="15"/> HTML5 — Estrutura e Semântica  
-O HTML5 foi utilizado como base do projeto, sendo responsável por toda a **estrutura do formulário**.
-👉 Foco: estrutura limpa, organizada e compreensível.
+🔗 <a href="https://github.com/Filiple15">GitHub</a>
 
----
-
-### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css3" width="15" height="15"/>CSS3 — Estilização e Experiência do Usuário  
-O CSS3 foi utilizado para transformar a estrutura em uma interface visual agradável.
-👉 Foco: clareza visual e usabilidade.
-  <td>
-      <img src="./code.png" width="800"/>
-    </td>
-  </tr>
-</table>
+</details>
