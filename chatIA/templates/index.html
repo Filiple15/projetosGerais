@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stella Assistant</title>
+
+  <!-- Ícones profissionais -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #020617;
+    height: 100vh;
+}
+
+/* BACKGROUND */
+.background {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #334155;
+}
+
+.mock-content {
+    opacity: 0.2;
+}
+
+/* FAB */
+.fab {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    transition: 0.3s;
+}
+
+.fab:hover {
+    transform: scale(1.1);
+}
+
+/* CHAT */
+.chat-modal {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 350px;
+    height: 500px;
+    background: #020617;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* HEADER */
+.chat-header {
+    padding: 15px;
+    background: #1e293b;
+    color: white;
+}
+
+/* MESSAGES */
+.chat-messages {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+/* BUBBLES */
+.message {
+    max-width: 75%;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+.user {
+    background: #2563eb;
+    color: white;
+    margin-left: auto;
+}
+
+.bot {
+    background: #1e293b;
+    color: #e2e8f0;
+}
+
+/* INPUT */
+.chat-input-area {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    border-top: 1px solid #1e293b;
+}
+
+.chat-input-area input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: #1e293b;
+    color: white;
+}
+
+/* MIC */
+.mic-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+/* STATUS */
+#status {
+    font-size: 12px;
+    color: #64748b;
+    padding: 5px 10px;
+}
+  </style>
+</head>
+
+<body>
+
+<div class="app">
+
+  <!-- BACKGROUND -->
+  <div class="background">
+    <div class="mock-content">
+      <h1>Game Dashboard</h1>
+    </div>
+  </div>
+
+  <!-- BOTÃO FLUTUANTE -->
+  <button class="fab" onclick="toggleChat()">
+    <i data-lucide="message-circle"></i>
+  </button>
+
+  <!-- CHAT -->
+  <div class="chat-modal" id="chatModal">
+
+    <div class="chat-container">
+
+      <div class="chat-header">
+        <h2>Stella</h2>
+      </div>
+
+      <div class="chat-messages" id="chatMessages">
+        <div id="resultado">---</div>
+      </div>
+
+      <div class="chat-input-area">
+        <input type="text" id="chatInput" placeholder="Digite uma mensagem..." />
+
+        <button id="btnMic" class="mic-btn" onclick="toggle()">
+          <i data-lucide="mic"></i>
+        </button>
+      </div>
+
+      <div id="status">Desligado</div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+    let recognition;
+let ativo = false;
+
+/* ================= CHAT ================= */
+
+function toggleChat() {
+    const modal = document.getElementById("chatModal");
+    modal.style.display =
+        modal.style.display === "flex" ? "none" : "flex";
+}
+
+/* ================= MENSAGENS ================= */
+
+function addMessage(text, type = "user") {
+    const container = document.getElementById("chatMessages");
+
+    const msg = document.createElement("div");
+    msg.classList.add("message", type);
+    msg.innerText = text;
+
+    container.appendChild(msg);
+    container.scrollTop = container.scrollHeight;
+}
+
+/* ================= INPUT ================= */
+
+const input = document.getElementById("chatInput");
+
+input.addEventListener("keydown", async (e) => {
+    if (e.key === "Enter" && input.value.trim() !== "") {
+        const texto = input.value;
+
+        addMessage(texto, "user");
+        input.value = "";
+
+        document.getElementById("status").innerText = "Processando...";
+
+        const response = await fetch('/api/comando', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({ texto })
+        });
+
+        const data = await response.json();
+
+        addMessage(data.resposta, "bot");
+        document.getElementById("status").innerText = "Pronto";
+    }
+});
+
+/* ================= MICROFONE ================= */
+
+function toggle() {
+    if (!ativo) iniciar();
+    else parar();
+}
+
+function iniciar() {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    recognition = new SpeechRecognition();
+    recognition.lang = 'pt-BR';
+    recognition.continuous = false;
+
+    ativo = true;
+
+    document.getElementById("status").innerText = "Ouvindo...";
+    document.getElementById("btnMic").classList.add("active");
+
+    recognition.onresult = async (event) => {
+        const texto = event.results[0][0].transcript;
+
+        addMessage(texto, "user");
+
+        document.getElementById("status").innerText = "Processando...";
+
+        const response = await fetch('/api/comando', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({ texto })
+        });
+
+        const data = await response.json();
+
+        addMessage(data.resposta, "bot");
+
+        parar(); // 🔥 para automaticamente
+    };
+
+    recognition.onend = () => {
+        parar();
+    };
+
+    recognition.start();
+}
+
+function parar() {
+    ativo = false;
+
+    if (recognition) recognition.stop();
+
+    document.getElementById("btnMic").classList.remove("active");
+    document.getElementById("status").innerText = "Desligado";
+}
+
+/* ================= ICONS ================= */
+lucide.createIcons();
+</script>
+</body>
+</html>

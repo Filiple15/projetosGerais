@@ -1,0 +1,9 @@
+estou utilizando dialogflow do google e ativei uma APi cliente, chave json
+tenho um projeto em Flask com Python Web com uma pagina html e um arquivo app.py
+esse projeto possui uma palavra chave de ativação "Alexa" quando falo a palavra de ativação, 
+mostra na tela o que deseja. em seguida falo falo e ele transcreve a fala em texto utilizando a biblioteca STT e pyaudio.
+no momento que transcreveu a fala, é preciso enviar a fala, é preciso enviar através da API dialogflow este texto, a inten que irá 
+interpretar esse texto chama "Alexa".
+o nosso projeto chama: Assistente_Virtual e a linguagem que ira enterpretar é português brasil,
+segue o meu codigo em Python do app.py que já está funcionando a palavra de ativação e a transcrição.
+não vou utilizar variaveis de ambiente meu arquivo json esta na pasta raiz do projeto.
