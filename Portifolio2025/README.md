@@ -1,65 +1,78 @@
+<div align="center">
+
 # 🌐 Meu Portfólio Pessoal
 
-Bem-vindo ao repositório do meu portfólio!  
-Este projeto foi desenvolvido com o objetivo de apresentar minha trajetória, minhas habilidades e alguns dos projetos que venho construindo durante meus estudos em Desenvolvimento de Sistemas.
+Aplicação desenvolvida para apresentar minha trajetória, habilidades e projetos como desenvolvedor, com foco em organização, clareza e experiência do usuário.
+
+</div>
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+<strong>Visão Geral do Projeto</strong>
 
-- **HTML5**  
-- **CSS3**
+<table>
+  <tr>
+    <td width="60%">
 
-O foco deste portfólio é simplicidade, estrutura bem organizada e uma boa apresentação visual.
+Este portfólio foi criado com o objetivo de centralizar minhas informações como desenvolvedor, destacando minhas competências, projetos e evolução na área de tecnologia.
 
----
+A estrutura foi pensada para ser simples, clara e responsiva, proporcionando uma navegação fluida e objetiva para qualquer visitante.<a href="https://filiple15.github.io/projetosGerais/Portifolio2025/frontend/index.html" target="_blank"><strong>
+Ver projeto </strong></a>
 
-## 📁 Sobre o Projeto
+<img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/Portifolio2025/PortifolioV1.JPG" width="100%" align="center"/>
 
-Este portfólio conta com:
-
-### ✔️ **Página inicial**  
-Apresenta minha história, minhas competências e uma visão geral sobre mim como desenvolvedor.
-
-### ✔️ **Seção de Projetos**  
-Mostro alguns projetos anteriores que já desenvolvi.  
-Cada card possui visual limpo e direciona para mais detalhes no GitHub.
-
-### ✔️ **Formulário de Contato**  
-Inclui um formulário funcional onde o visitante pode enviar uma mensagem diretamente para o meu e-mail.
-
-### ✔️ **Design Responsivo**  
-Totalmente adaptado para diferentes tamanhos de tela.
+  </td>
+  </tr>
+</table>
 
 ---
 
-## 🔗 Acesso ao Portfólio
+<strong> 🛠️ Tecnologias Utilizadas: </strong> <img src="https://skillicons.dev/icons?i=html,css&theme=light" height="25px" />
 
-Você pode acessar o site aqui:  
-👉 **https://filiple15.github.io/projetosGerais/Portifolio2025/frontend/index.html**
+##
+
+<details>
+  <summary><strong>⚙️ Funcionalidades</strong></summary>
+
+<br>
+
+* Página inicial com apresentação pessoal e visão geral
+* Seção de projetos com cards interativos e links para o GitHub
+* Formulário de contato integrado para envio de mensagens
+* Layout responsivo adaptado para diferentes dispositivos
+* Estrutura organizada e foco em usabilidade
+
+</details>
+
+##
+
+<details>
+  <summary><strong>📊 Detalhes adicionais</strong></summary>
+
+<br>
+
+* 📅 Data de conclusão: 2025
+* 📦 Status: Concluído
+* 🎯 Objetivo: Construção de portfólio pessoal para apresentação profissional
+* 🌐 Versão online: <a href="https://filiple15.github.io/projetosGerais/Portifolio2025/frontend/index.html" target="_blank">Acessar site</a>
+
+<br>
+
+<a href="https://github.com/Filiple15">📃 Repositório</a>
+
+</details>
 
 ---
 
-## 🧑‍💻 Sobre mim
+<details>
+  <summary><strong>👨‍💼 Sobre o criador</strong></summary> 
+  <br>
 
-Sou estudante de **Desenvolvimento de Sistemas**, apaixonado por front-end e sempre trabalhando para evoluir meus projetos e minhas habilidades.
+<strong>Dev. Junior</strong>
+Desenvolvedor em evolução, focado em front-end e construção de interfaces modernas, sempre buscando evolução contínua através da prática e consistência.
 
-Se quiser acompanhar meu progresso:
+🔗 <a href="https://github.com/Filiple15">GitHub</a>
+🔗 <a href="https://www.linkedin.com/in/joaofilipeleandrodossantos/">LinkedIn</a>
+🔗 <a href="https://www.instagram.com/joao_fl_015">Instagram</a>
 
-- **GitHub:** https://github.com/Filiple15  
-- **LinkedIn:** https://www.linkedin.com/in/joaofilipeleandrodossantos/  
-- **Instagram:** https://www.instagram.com/joao_fl_015
-
----
-
-## 📬 Contato
-
-Fique à vontade para abrir uma issue, mandar sugestões ou entrar em contato comigo pelo próprio formulário do site.  
-Toda contribuição ou feedback é bem-vindo!
-
----
-
-## ⭐ Como contribuir
-
-Se gostou, deixe uma estrela ⭐ no repositório — isso me ajuda muito!
-
+</details>
