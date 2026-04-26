@@ -91,7 +91,7 @@ Projeto de interface de chat com integração de áudio, permitindo gravação n
   <tr>
     <td width="60%">
 
-### 🔗 [Site de Acessos](https://filiple15.github.io/projetosGerais/SiteAcessos/index.html)
+### 🔗 [Site de Acessos](https://github.com/Filiple15/projetosGerais/tree/main/SiteAcessos)
 
 Projeto central que reúne acessos rápidos para outros projetos e conteúdos, funcionando como um hub pessoal.
 
