@@ -31,7 +31,7 @@ A aplicação realiza consumo de APIs externas, processamento de dados e exibiç
 ##
 
 <details>
-  <summary><strong>✉️ Sobre o projeto<strong></summary> <br>
+  <summary><strong>👨‍💻 Mais informações<strong></summary> <br>
   <table>
   <tr>
     <td>
