@@ -91,11 +91,18 @@ Projeto de interface de chat com integração de áudio, permitindo gravação n
   <tr>
     <td width="60%">
 
-### 🔗 [Site de Acessos](https://github.com/Filiple15/projetosGerais/tree/main/SiteAcessos)
+### 🔗 [Acessos Redes Sociais](https://github.com/Filiple15/projetosGerais/tree/main/SiteAcessos)
 
-Projeto central que reúne acessos rápidos para outros projetos e conteúdos, funcionando como um hub pessoal.
+Página pessoal que reúne minhas redes, meu portfólio e a Top Dev em um só lugar, com telas de Links, Top Dev e Sobre, tema claro e escuro e layout responsivo para celular, tablet e computador.
 
-<p><strong>Tecnologias:</strong> HTML5, CSS3</p>
+<p><strong>Tecnologias:</strong> HTML5, CSS3, JavaScript</p>
+
+<p>
+  <a href="https://filiple15.github.io/projetosGerais/SiteAcessos/index.html">
+    <img src="https://img.shields.io/badge/Abrir_o_site-239447?style=for-the-badge&logo=githubpages&logoColor=white" alt="Abrir o site Acessos Redes Sociais"/>
+  </a>
+</p>
+
 <img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/SiteAcessos/SiteAcessos.JPG" width="100%" align="center"/>
 
   </tr>
@@ -109,4 +116,4 @@ Sou um desenvolvedor em constante evolução, focado em aprender na prática e c
 
 Cada projeto aqui representa um passo na minha jornada — não apenas código, mas disciplina, consistência e busca por melhoria contínua.
 
-🔗 Acesse minhas <a href="https://github.com/Filiple15/projetosGerais/tree/main/SiteAcessos">redes</a> principais:  
+🔗 Acesse minhas <a href="https://filiple15.github.io/projetosGerais/SiteAcessos/index.html">redes</a> principais:  
