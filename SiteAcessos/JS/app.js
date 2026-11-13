@@ -2,17 +2,17 @@
    Central de Links | João Filipe
    1. Configuração
    2. Tema claro/escuro
-   3. Grupo de ofertas
+   3. Grupos do WhatsApp (ofertas e rifas)
    4. Navegação entre telas (hash) e animações
    ========================================================= */
 (() => {
   'use strict';
 
   /* ---------- 1. Configuração ----------
-     Para ativar o grupo de ofertas, cole o link do grupo do WhatsApp aqui.
-     Exemplo: 'https://chat.whatsapp.com/XXXXXXXX'
-     Enquanto estiver vazio, os cards mostram "Em breve". */
-  const OFERTAS_URL = '';
+     Links dos grupos do WhatsApp. Exemplo: 'https://chat.whatsapp.com/XXXXXXXX'
+     Enquanto um link estiver vazio, o card correspondente mostra "Em breve". */
+  const OFERTAS_URL = 'https://chat.whatsapp.com/C0GobVY8Xe1AtbcU85ywnJ';
+  const RIFAS_URL = '';
 
   const root = document.documentElement;
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -55,10 +55,15 @@
     if (!readTheme()) applyTheme(event.matches ? 'dark' : 'light');
   });
 
-  /* ---------- 3. Grupo de ofertas ---------- */
-  document.querySelectorAll('[data-offers]').forEach((el) => {
-    if (OFERTAS_URL) {
-      el.setAttribute('href', OFERTAS_URL);
+  /* ---------- 3. Grupos do WhatsApp ---------- */
+  const groupLinks = [
+    ['[data-offers]', OFERTAS_URL],
+    ['[data-raffles]', RIFAS_URL],
+  ];
+
+  groupLinks.forEach(([selector, url]) => document.querySelectorAll(selector).forEach((el) => {
+    if (url) {
+      el.setAttribute('href', url);
       return;
     }
     el.classList.add('is-soon');
@@ -67,7 +72,7 @@
     el.removeAttribute('rel');
     el.setAttribute('aria-disabled', 'true');
     el.insertAdjacentHTML('beforeend', '<span class="badge">Em breve</span>');
-  });
+  }));
 
   /* ---------- 4. Navegação entre telas ---------- */
   const views = {
