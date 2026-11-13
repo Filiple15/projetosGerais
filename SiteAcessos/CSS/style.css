@@ -72,11 +72,13 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
+  overflow-x: hidden;
   overflow-x: clip;
   min-height: 100vh;
   min-height: 100dvh;
@@ -454,9 +456,13 @@ a.card:active { transform: scale(.985); }
 .tile--youtube   { --tile: #ff0000; }
 .tile--linkedin  { --tile: #0a66c2; }
 .tile--whatsapp  { --tile: #25d366; }
+.tile--facebook  { --tile: #1877f2; }
+.tile--pinterest { --tile: #e60023; }
 .tile--green     { --tile: var(--green); }
 [data-theme="dark"] .tile--linkedin { --tile: #5aa9f0; }
 [data-theme="dark"] .tile--youtube { --tile: #ff5a5a; }
+[data-theme="dark"] .tile--facebook { --tile: #5b9bff; }
+[data-theme="dark"] .tile--pinterest { --tile: #ff5a6e; }
 
 /* Cards "em breve" */
 .card.is-soon {
@@ -723,6 +729,8 @@ a.card:active { transform: scale(.985); }
 @media (min-width: 600px) {
   .shell { padding-top: 40px; }
   .cards--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cards--2 > .card--wide,
+  .cards--2 > .card--featured { grid-column: 1 / -1; }
   .pillars { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .projects { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .brand { display: flex; }
