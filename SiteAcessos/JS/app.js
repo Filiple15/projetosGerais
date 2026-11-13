@@ -80,6 +80,12 @@
 
   let active = null;
   let busy = false;
+  // Seção que deve ficar em destaque ao abrir a próxima tela (ex.: card "Empresa Top Dev")
+  let pendingSection = null;
+
+  document.querySelectorAll('[data-goto]').forEach((link) => {
+    link.addEventListener('click', () => { pendingSection = link.dataset.goto; });
+  });
 
   const routeFromHash = () => {
     const key = location.hash.replace(/^#\/?/, '').split(/[?&]/)[0];
@@ -103,7 +109,18 @@
     updateThemeColor();
     window.scrollTo(0, 0);
 
-    if (moveFocus) {
+    const section = pendingSection ? views[route].el.querySelector('#' + pendingSection) : null;
+    pendingSection = null;
+
+    if (section) {
+      // Leva a seção para o topo, logo abaixo da barra fixa
+      const bar = document.querySelector('.topbar');
+      const offset = (bar ? bar.offsetHeight : 0) + 20;
+      const top = section.getBoundingClientRect().top + window.scrollY - offset;
+      window.scrollTo({ top: Math.max(0, top), behavior: 'instant' });
+      section.setAttribute('tabindex', '-1');
+      section.focus({ preventScroll: true });
+    } else if (moveFocus) {
       const target = views[route].el.querySelector('[data-focus]');
       if (target) target.focus({ preventScroll: true });
     }
