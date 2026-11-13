@@ -47,19 +47,20 @@ Ver projeto </strong></a>
 ##
 
 <details>
-  <summary><strong>🔗 Como ativar o grupo de ofertas</strong></summary>
+  <summary><strong>🔗 Como ativar os grupos do WhatsApp</strong></summary>
 
 <br>
 
-O grupo de ofertas aparece na tela da Top Dev (a tela inicial leva até ele pelo card Empresa Top Dev). Enquanto não houver link, os cards mostram "Em breve".
+Os grupos aparecem na seção Grupos Top Dev, na tela da Top Dev (a tela inicial leva até lá pelo card Empresa Top Dev). Enquanto um grupo não tiver link, o card mostra "Em breve".
 
 Para ativar, abra `JS/app.js` e preencha a constante no topo do arquivo:
 
 ```js
 const OFERTAS_URL = 'https://chat.whatsapp.com/SEU-LINK';
+const RIFAS_URL = 'https://chat.whatsapp.com/SEU-LINK-DE-RIFAS';
 ```
 
-Todos os cards e botões do grupo passam a funcionar de uma vez.
+Todos os cards e botões de cada grupo passam a funcionar de uma vez.
 
 </details>
 
