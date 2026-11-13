@@ -14,7 +14,7 @@ Página pessoal que reúne minhas redes, meu portfólio e a Top Dev em um só lu
   <tr>
     <td width="60%">
 
-Este projeto centraliza minhas redes sociais e fortalece minha presença digital. A página inicial mostra meus links principais, o destaque da **Top Dev** e o grupo de ofertas. Ao abrir a Top Dev, uma animação de transição leva para uma tela própria com site, Instagram, YouTube, TikTok, atendimento e o grupo de ofertas. Há ainda uma tela **Sobre** com minha apresentação, tecnologias e projetos.<a href="https://filiple15.github.io/projetosGerais/SiteAcessos/index.html" target="_blank"><strong>
+Este projeto centraliza minhas redes sociais e fortalece minha presença digital. A página inicial mostra meus links principais, o destaque da **Top Dev** e o card **Empresa Top Dev**, que leva direto para a seção de links da marca. Ao abrir a Top Dev, uma animação de transição leva para uma tela própria com site, Instagram, YouTube, TikTok, atendimento e o grupo de ofertas. Há ainda uma tela **Sobre** com minha apresentação, tecnologias e projetos.<a href="https://filiple15.github.io/projetosGerais/SiteAcessos/index.html" target="_blank"><strong>
 Ver projeto </strong></a>
 
 <img src="https://raw.githubusercontent.com/Filiple15/projetosGerais/main/SiteAcessos/SiteAcessos.JPG" width="100%" align="center"/>
@@ -51,7 +51,7 @@ Ver projeto </strong></a>
 
 <br>
 
-O grupo de ofertas aparece na tela inicial e na tela da Top Dev. Enquanto não houver link, os cards mostram "Em breve".
+O grupo de ofertas aparece na tela da Top Dev (a tela inicial leva até ele pelo card Empresa Top Dev). Enquanto não houver link, os cards mostram "Em breve".
 
 Para ativar, abra `JS/app.js` e preencha a constante no topo do arquivo:
 
