@@ -77,6 +77,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x: clip;
   min-height: 100vh;
   min-height: 100dvh;
   display: flex;
@@ -301,7 +302,7 @@ a { color: inherit; }
 .back .icon { width: 18px; height: 18px; }
 
 /* ---------- 5. Tela Links ---------- */
-.home { display: grid; gap: 28px; }
+.home { display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; }
 
 .profile {
   display: flex;
@@ -344,7 +345,7 @@ a { color: inherit; }
 .profile__tag a { font-weight: 600; color: var(--text); text-decoration: none; }
 .profile__tag a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
-.home__content { display: grid; gap: 12px; align-content: start; }
+.home__content { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; align-content: start; }
 
 /* Destaque da Top Dev */
 .feature {
@@ -393,7 +394,7 @@ a { color: inherit; }
 .feature:hover .feature__cta { gap: 12px; }
 
 /* Cards de link */
-.cards { display: grid; gap: 12px; }
+.cards { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; }
 
 .card {
   position: relative;
@@ -556,7 +557,7 @@ a.card:active { transform: scale(.985); }
   font-weight: 500;
 }
 
-.pillars { display: grid; gap: 12px; }
+.pillars { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; }
 .pillar {
   padding: 20px;
   background: var(--surface);
@@ -596,7 +597,7 @@ a.card:active { transform: scale(.985); }
 .about-text { display: grid; gap: 14px; max-width: 64ch; margin-top: 26px; font-size: 1.025rem; }
 .about-text a { font-weight: 600; text-underline-offset: 3px; }
 
-.projects { display: grid; gap: 12px; }
+.projects { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; }
 .project {
   display: flex;
   flex-direction: column;
@@ -721,9 +722,9 @@ a.card:active { transform: scale(.985); }
 /* Tablet e acima: cards em duas colunas */
 @media (min-width: 600px) {
   .shell { padding-top: 40px; }
-  .cards--2 { grid-template-columns: 1fr 1fr; }
-  .pillars { grid-template-columns: repeat(3, 1fr); }
-  .projects { grid-template-columns: 1fr 1fr; }
+  .cards--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pillars { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .projects { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .brand { display: flex; }
   .tabs { flex: none; }
   .tab { padding: 8px 18px; }
@@ -755,7 +756,7 @@ a.card:active { transform: scale(.985); }
   }
   .profile__photo { width: 132px; height: 132px; }
   .profile__name { font-size: 2.1rem; }
-  .projects { grid-template-columns: repeat(3, 1fr); }
+  .projects { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .feature { padding: 34px; }
   .td-hero { padding: 56px 56px; }
   .about-head__photo { width: 104px; height: 104px; }
